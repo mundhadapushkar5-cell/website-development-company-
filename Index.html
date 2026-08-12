@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Depthwork — 3D Animation Web Studio</title>
+<meta name="description" content="Websites built with real depth. Normal, Professional and full 3D Animation builds — worldwide clients welcome.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <span class="logo-face f1"></span>
+        <span class="logo-face f2"></span>
+        <span class="logo-face f3"></span>
+      </span>
+      Depthwork
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-ghost nav-cta">Start a project</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-glow glow-magenta" aria-hidden="true"></div>
+    <div class="hero-glow glow-teal" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">WEB STUDIO — OPEN TO CLIENTS WORLDWIDE</p>
+        <h1 class="hero-title">
+          We don't design<br>
+          flat pages. <span class="accent-italic">We build depth.</span>
+        </h1>
+        <p class="hero-sub">
+          From a simple business page to a fully animated 3D web experience —
+          pick the layer of depth your brand needs, and we build it clean, fast, and yours to keep.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary">See pricing</a>
+          <a href="https://wa.me/917887523909" target="_blank" rel="noopener" class="btn btn-outline">Chat on WhatsApp</a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <span class="mono">01</span>
+            <p>Every project starts with a real conversation, not a template.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-stage" aria-hidden="true">
+        <div class="stage" id="stage">
+          <div class="cube" id="cube">
+            <div class="face front"></div>
+            <div class="face back"></div>
+            <div class="face right"></div>
+            <div class="face left"></div>
+            <div class="face top"></div>
+            <div class="face bottom"></div>
+          </div>
+          <div class="ring ring-a"></div>
+          <div class="ring ring-b"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <p class="eyebrow center">WHAT WE BUILD</p>
+      <h2 class="section-title center">Three depths. One studio.</h2>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-icon flat" aria-hidden="true"></div>
+          <h3>Flat &amp; fast</h3>
+          <p>Clean, responsive pages for businesses that need to be online and look credible — no clutter, no delay.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon layered" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <h3>Layered &amp; branded</h3>
+          <p>Custom sections, motion on scroll, and a visual system built around your brand — not a recycled theme.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon cube3d" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <h3>Full 3D animation</h3>
+          <p>Interactive 3D objects, depth-based storytelling, and scroll-driven scenes that make a page feel alive.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing" id="pricing">
+    <div class="section-inner">
+      <p class="eyebrow center">PRICING</p>
+      <h2 class="section-title center">Pick your depth</h2>
+      <p class="section-sub center">Straightforward pricing. No hidden layers. Every tier includes a working, deployed website.</p>
+
+      <div class="pricing-grid" id="pricingGrid">
+
+        <article class="price-card" data-tilt>
+          <div class="price-card-inner">
+            <p class="price-label mono">LAYER 01</p>
+            <h3>Normal Website</h3>
+            <p class="price-desc">A clean, responsive site to get your business online quickly.</p>
+            <p class="price-tag"><span class="currency">₹</span>3,000</p>
+            <ul class="price-features">
+              <li>Up to 5 sections / pages</li>
+              <li>Mobile responsive layout</li>
+              <li>Contact form &amp; basic SEO</li>
+              <li>3–5 day delivery</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Choose Normal</a>
+          </div>
+        </article>
+
+        <article class="price-card price-featured" data-tilt>
+          <div class="price-card-inner">
+            <p class="price-ribbon">MOST CHOSEN</p>
+            <p class="price-label mono">LAYER 02</p>
+            <h3>Professional Website</h3>
+            <p class="price-desc">A custom-designed site with brand-matched visuals and smooth interactions.</p>
+            <p class="price-tag"><span class="currency">₹</span>8,000</p>
+            <ul class="price-features">
+              <li>Everything in Normal, plus:</li>
+              <li>Custom UI &amp; scroll animations</li>
+              <li>CMS-ready structure</li>
+              <li>7–10 day delivery</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block">Choose Professional</a>
+          </div>
+        </article>
+
+        <article class="price-card" data-tilt>
+          <div class="price-card-inner">
+            <p class="price-label mono">LAYER 03</p>
+            <h3>3D Animation Style</h3>
+            <p class="price-desc">A fully immersive site with real 3D elements, depth, and interactive motion.</p>
+            <p class="price-tag"><span class="currency">₹</span>14,000</p>
+            <ul class="price-features">
+              <li>Everything in Professional, plus:</li>
+              <li>Custom 3D objects &amp; scenes</li>
+              <li>Mouse / scroll-driven interaction</li>
+              <li>14–18 day delivery</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Choose 3D Animation</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" id="process">
+    <div class="section-inner">
+      <p class="eyebrow center">HOW A PROJECT MOVES</p>
+      <h2 class="section-title center">Four steps, in order</h2>
+
+      <ol class="process-list">
+        <li class="process-item reveal">
+          <span class="process-num mono">01</span>
+          <div>
+            <h4>Brief</h4>
+            <p>You tell us what the site needs to do and who it's for. We confirm scope and the tier that fits.</p>
+          </div>
+        </li>
+        <li class="process-item reveal">
+          <span class="process-num mono">02</span>
+          <div>
+            <h4>Design</h4>
+            <p>We share a layout and visual direction before any heavy build work starts — so there are no surprises.</p>
+          </div>
+        </li>
+        <li class="process-item reveal">
+          <span class="process-num mono">03</span>
+          <div>
+            <h4>Build</h4>
+            <p>HTML, CSS and JavaScript, hand-built for your project — animation included where the tier calls for it.</p>
+          </div>
+        </li>
+        <li class="process-item reveal">
+          <span class="process-num mono">04</span>
+          <div>
+            <h4>Launch</h4>
+            <p>We deploy, test across devices, and hand over the finished site — ready for clients in any country.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="hero-glow glow-magenta small" aria-hidden="true"></div>
+    <div class="section-inner contact-inner">
+      <p class="eyebrow center">GET IN TOUCH</p>
+      <h2 class="section-title center">Worldwide clients welcome</h2>
+      <p class="section-sub center">Wherever you're building from, we take the call. Reach out and tell us about your project.</p>
+
+      <div class="contact-actions">
+        <a href="tel:+917887523909" class="contact-card">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.5c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1L6.6 10.8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </span>
+          <span>
+            <strong>Call</strong>
+            <span class="mono">+91 78875 23909</span>
+          </span>
+        </a>
+        <a href="https://wa.me/917887523909" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3Z" stroke="currentColor" stroke-width="1.5"/><path d="M8.5 8.8c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.4.2.5.7 1.6.7 1.7.1.2.1.3 0 .5-.1.2-.2.3-.3.4-.2.2-.3.3-.1.6.3.5.9 1.3 1.8 1.8.6.4.9.3 1.1.1l.5-.5c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.4.1.5-.1 1.4-.5 1.7-.5.4-1.4.7-2.4.4-1.5-.4-3-1.4-4.2-2.7-1-1.1-1.6-2.1-1.9-3-.3-.9-.2-1.6.1-2Z" fill="currentColor"/></svg>
+          </span>
+          <span>
+            <strong>WhatsApp</strong>
+            <span class="mono">Message us directly</span>
+          </span>
+        </a>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" placeholder="Where you're writing from">
+          </div>
+        </div>
+        <div class="field">
+          <label for="tier">Interested in</label>
+          <select id="tier" name="tier">
+            <option value="normal">Normal Website — ₹3,000</option>
+            <option value="professional">Professional Website — ₹8,000</option>
+            <option value="3d">3D Animation Style — ₹14,000</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us what you're building..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send message</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <a href="#top" class="logo small">
+      <span class="logo-mark" aria-hidden="true">
+        <span class="logo-face f1"></span>
+        <span class="logo-face f2"></span>
+        <span class="logo-face f3"></span>
+      </span>
+      Depthwork
+    </a>
+    <p class="mono footer-note">Built with HTML, CSS &amp; JavaScript — no frameworks.</p>
+    <p class="footer-copy">© <span id="year"></span> Depthwork. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+        </html>
+          
